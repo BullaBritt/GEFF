@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  header {
+    flex: 2;
+    justify-content: middle;
+  }
+  
+  ul {
+    flex: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    border-right: none;
+    padding: 14px 14px;
+    text-align: center;
+    
+  }

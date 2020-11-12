@@ -1,0 +1,28 @@
+html {
+    color: #000000;
+  }
+  
+  body {
+    background-color: #ece7da;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 2fr 3fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .LK {
+    font-style: #a5a29b;
+  }
+  
+  p {
+    grid-column: auto;
+    grid-row: 2;
+  }
+  
+  .Pro {
+    max-width: 95%;
+    padding: 5px 5px;
+  }
